@@ -1,0 +1,31 @@
+.card  { position: relative !important; }
+
+.card input {
+    position: absolute !important;
+    top: 0 !important;
+    left: 0 !important;
+}
+
+.card-parent {
+    margin-bottom: 20px;
+}
+
+.card-parent .card { height: 100%; }
+
+.btn-cstm {
+    border: 2px solid black;
+    padding: 4px;
+}
+
+.card-body {
+    text-align: center !important;
+}
+
+.dimensions label {
+    max-width:150px;
+    width: 100%;
+}
+
+div#dvd, div#furniture, div#book {
+    display: none;
+}
